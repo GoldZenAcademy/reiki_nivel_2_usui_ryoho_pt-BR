@@ -147,3 +147,48 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# --- Projeto: landing page estática (Reiki Nível 1 Usui Ryoho) ---
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rascunhos e arquivos temporários
+*.tmp
+*.bak
+*.orig
+rascunho*/
+rascunhos/
+tmp/
+temp/
+
+# Materiais de trabalho que não devem ficar públicos
+# (vídeos, arquivos compactados, originais de imagem, textos internos)
+*.zip
+*.rar
+*.7z
+*.mov
+*.mp4
+*.psd
+*.ai
+*.xcf
+*.pdf
+*.docx
+originais/
+privado/
+notas-internas*
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
